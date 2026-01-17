@@ -3,7 +3,7 @@ name = "financeapi"
 version = "0.1.0"
 description = "Personal finance API (MVP) - accounts, transactions, imports, categorization rules, insights"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.12"
 dependencies = [
   "fastapi>=0.115.0",
   "uvicorn[standard]>=0.30.0",
@@ -30,4 +30,4 @@ addopts = "-q"
 
 [tool.ruff]
 line-length = 100
-target-version = "py314"
+target-version = "py312"

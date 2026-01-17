@@ -1,10 +1,10 @@
 # FinanceAPI (MVP)
 
-FastAPI + SQLAlchemy (sync) + psycopg v3 + Alembic, targeting **Python 3.14** and **PostgreSQL 18+**.
+FastAPI + SQLAlchemy (sync) + psycopg v3 + Alembic, targeting **Python 3.12** and **PostgreSQL 16+**.
 
 ## Quickstart
 
-1) Create a venv (Python 3.14):
+1) Create a venv (Python 3.12):
 ```bash
 python -m venv .venv
 source .venv/bin/activate
